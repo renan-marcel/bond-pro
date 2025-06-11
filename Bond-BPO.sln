@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution itens", "solution itens", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A4E53892-B4E5-40FB-BAA0-4A8886E24793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0A5AA707-FDBC-40B3-BD3B-2FD4B11EA8E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0BC48E61-503B-4443-96CE-85094E56A4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D799F0CE-89BC-4028-B060-879505D5BA1E}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bond-BPO.Aspire.AppHost", "src\Bond-BPO.Aspire\Bond-BPO.Aspire.AppHost\Bond-BPO.Aspire.AppHost.csproj", "{89B0D065-1B55-40C4-BE3D-C10F8760FF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bond-BPO.Aspire.ServiceDefaults", "src\Bond-BPO.Aspire\Bond-BPO.Aspire.ServiceDefaults\Bond-BPO.Aspire.ServiceDefaults.csproj", "{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bond-BPO.Aspire.ApiService", "src\Bond-BPO.Aspire\Bond-BPO.Aspire.ApiService\Bond-BPO.Aspire.ApiService.csproj", "{B876202B-11AA-1797-B688-E7E3EACFD9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bond-BPO.Aspire.Web", "src\Bond-BPO.Aspire\Bond-BPO.Aspire.Web\Bond-BPO.Aspire.Web.csproj", "{48284666-9A9A-D997-1EB5-EA65AABBE28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bond-BPO.Aspire.Tests", "src\Bond-BPO.Aspire\Bond-BPO.Aspire.Tests\Bond-BPO.Aspire.Tests.csproj", "{F91152F7-48F8-2B91-69F9-ACE4A3650BA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B0D065-1B55-40C4-BE3D-C10F8760FF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B0D065-1B55-40C4-BE3D-C10F8760FF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B0D065-1B55-40C4-BE3D-C10F8760FF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B0D065-1B55-40C4-BE3D-C10F8760FF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B876202B-11AA-1797-B688-E7E3EACFD9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B876202B-11AA-1797-B688-E7E3EACFD9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B876202B-11AA-1797-B688-E7E3EACFD9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B876202B-11AA-1797-B688-E7E3EACFD9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48284666-9A9A-D997-1EB5-EA65AABBE28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48284666-9A9A-D997-1EB5-EA65AABBE28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48284666-9A9A-D997-1EB5-EA65AABBE28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48284666-9A9A-D997-1EB5-EA65AABBE28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91152F7-48F8-2B91-69F9-ACE4A3650BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91152F7-48F8-2B91-69F9-ACE4A3650BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91152F7-48F8-2B91-69F9-ACE4A3650BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91152F7-48F8-2B91-69F9-ACE4A3650BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4E53892-B4E5-40FB-BAA0-4A8886E24793} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0A5AA707-FDBC-40B3-BD3B-2FD4B11EA8E7} = {A4E53892-B4E5-40FB-BAA0-4A8886E24793}
+		{0BC48E61-503B-4443-96CE-85094E56A4C1} = {0A5AA707-FDBC-40B3-BD3B-2FD4B11EA8E7}
+		{D799F0CE-89BC-4028-B060-879505D5BA1E} = {0BC48E61-503B-4443-96CE-85094E56A4C1}
+		{89B0D065-1B55-40C4-BE3D-C10F8760FF73} = {10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}
+		{F698A3A4-5CDA-D99B-C1E0-DC0B9023CF38} = {10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}
+		{B876202B-11AA-1797-B688-E7E3EACFD9B7} = {10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}
+		{48284666-9A9A-D997-1EB5-EA65AABBE28F} = {10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}
+		{F91152F7-48F8-2B91-69F9-ACE4A3650BA8} = {10110371-FD43-40DE-AAF5-E2FF6AAB0CB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901675B0-743E-4C41-93B8-75FC67B99D5F}
+	EndGlobalSection
+EndGlobal

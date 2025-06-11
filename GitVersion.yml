@@ -1,0 +1,23 @@
+mode: ContinuousDeployment
+branches:
+  main:
+    regex: ^main$
+    increment: Minor
+    track-merge-target: false
+    prevent-increment-of-merged-branch-version: true
+    is-mainline: true
+  feature:
+    regex: ^features?[/-]
+    increment: Minor
+    source-branches: ['main', 'develop']
+  hotfix:
+    regex: ^hotfix(es)?[/-]
+    increment: Patch
+    source-branches: ['main']
+  release:
+    regex: ^releases?[/-]
+    increment: None
+    source-branches: ['main']
+ignore:
+  sha: []
+merge-message-formats: {}
